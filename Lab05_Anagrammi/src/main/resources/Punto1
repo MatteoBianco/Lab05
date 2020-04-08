@@ -1,0 +1,13 @@
+- Il livello rappresenta il numero di lettere che ho già utilizzato per comporre la parola anagrammata
+- Una soluzione parziale è costruita da un numero di lettere, anagrammate, della parola originale, pari al livello in cui si trova
+- Una soluzione parziale è anche completa se è lunga come la parola originale o, in alternativa, siamo al livello N, dove N è il numero di lettere della parola da anagrammare
+- Tipicamente, una soluzione parziale in questo caso è sempre valida, a meno che non si aggiungano dei criteri (es. di correttezza) non specificati
+- Analogamente a prima, una soluzione completa è sempre valida a meno che non si specifichino altri criteri 
+- La struttura dati per memorizzare una soluzione può essere una List di String
+- La struttura dati per memorizzare lo stato della ricerca è un Integer, il livello
+- A. livello = parola.length()
+  B. parziale = soluzione + "x"
+  C. non necessario a meno che non si specifichino criteri limitativi sull'anagramma
+  D. non per forza necessaria (dipende dalla struttura, se necessaria, ritorno alla parola precedente al lancio della ricorsione)
+  E. non necessari
+ 
